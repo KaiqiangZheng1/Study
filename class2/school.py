@@ -26,3 +26,5 @@ class Teacher(Person):  # Inherits from Person
 
     def introduce(self):  # Overriding the method
         return f"Hello, I'm {self.name}, a {self.age}-year-old teacher, and I teach {self.subject}."
+    
+
